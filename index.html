@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Tecnologia que acompanha seu ritmo. Descubra eletrônicos, áudio, acessórios e ofertas na Volt.">
+  <title>VOLT — Tecnologia no próximo nível</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">⚡ OFERTAS DE LANÇAMENTO <span>—</span> Frete grátis acima de R$ 299</div>
+  <header class="header">
+    <a class="logo" href="#" aria-label="Volt início"><span class="logo-mark">V</span>VOLT<span class="logo-dot">.</span></a>
+    <nav class="nav" id="nav"><a href="#produtos">Produtos</a><a href="#categorias">Categorias</a><a href="#vantagens">Por que a Volt?</a></nav>
+    <div class="header-actions">
+      <button class="icon-btn search-toggle" aria-label="Buscar" id="searchToggle">⌕</button>
+      <button class="icon-btn cart-toggle" id="cartToggle" aria-label="Abrir carrinho">♧ <span class="cart-count" id="cartCount">0</span></button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+  <div class="search-bar" id="searchBar"><input id="searchInput" type="search" placeholder="O que você está procurando?"><button id="searchSubmit">Buscar</button></div>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> SEU PRÓXIMO NÍVEL COMEÇA AQUI</div>
+        <h1>Tecnologia que<br>muda o <em>jogo.</em></h1>
+        <p>Os gadgets que você quer. A experiência que você merece. Descubra uma nova forma de se conectar ao que importa.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="#produtos">Explorar produtos <span>↗</span></a><a class="text-link" href="#categorias">Descobrir categorias <span>→</span></a></div>
+        <div class="hero-proof"><div class="avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div><div><strong>Mais de 2.000 clientes</strong><small>já estão no próximo nível</small></div><div class="rating"><b>★★★★★</b><small>4,9/5 avaliação</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-glow"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-badge"><span>DROP 001</span><strong>NEW<br>ENERGY.</strong></div>
+        <img class="hero-product" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=85" alt="" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=85'">
+        <div class="floating-card"><span class="floating-icon">✦</span><div><small>DESTAQUE DA SEMANA</small><strong>Sound. Sem limites.</strong></div><span class="floating-arrow">↗</span></div>
+        <div class="vertical-label">DESIGNED FOR YOUR EVERYDAY — VOLT 2026</div>
+      </div>
+      <div class="hero-bottom"><span>01 / 04</span><div class="hero-progress"><i></i></div><span>INOVAÇÃO EM MOVIMENTO</span></div>
+    </section>
+
+    <section class="trust-strip" id="vantagens">
+      <div><span class="trust-icon">↗</span><p><strong>Compra segura</strong><small>Seus dados protegidos</small></p></div>
+      <div><span class="trust-icon">⌁</span><p><strong>Entrega para todo o Brasil</strong><small>Rastreamento do pedido</small></p></div>
+      <div><span class="trust-icon">⟲</span><p><strong>Troca descomplicada</strong><small>Até 7 dias após receber</small></p></div>
+      <div><span class="trust-icon">♡</span><p><strong>Suporte de verdade</strong><small>Estamos aqui para ajudar</small></p></div>
+    </section>
+
+    <section class="section categories-section" id="categorias">
+      <div class="section-heading"><div><div class="eyebrow">ESCOLHA SEU UNIVERSO</div><h2>Feito para o seu <em>ritmo.</em></h2></div><a class="text-link" href="#produtos">Ver tudo <span>→</span></a></div>
+      <div class="category-grid">
+        <button class="category-card category-a" data-category="Áudio"><span class="category-number">01 / ÁUDIO</span><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85" alt="Fones e áudio"><span class="category-title">Áudio<span>↗</span></span><small>Ouça além do óbvio</small></button>
+        <button class="category-card category-b" data-category="Wearables"><span class="category-number">02 / WEARABLES</span><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85" alt="Relógio inteligente"><span class="category-title">Wearables<span>↗</span></span><small>Seu mundo, no pulso</small></button>
+        <button class="category-card category-c" data-category="Acessórios"><span class="category-number">03 / ACESSÓRIOS</span><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=85" alt="Acessórios eletrônicos"><span class="category-title">Acessórios<span>↗</span></span><small>Detalhes que fazem diferença</small></button>
+      </div>
+    </section>
+
+    <section class="section products-section" id="produtos">
+      <div class="section-heading"><div><div class="eyebrow">CURADORIA VOLT</div><h2>Queridinhos da <em>vez.</em></h2><p class="section-subtitle">Tecnologia escolhida a dedo. Para fazer mais, viver melhor e ir além.</p></div><div class="product-controls"><button class="filter active" data-filter="Todos">Todos</button><button class="filter" data-filter="Áudio">Áudio</button><button class="filter" data-filter="Wearables">Wearables</button><button class="filter" data-filter="Acessórios">Acessórios</button></div></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="center-action"><button class="btn btn-outline" id="showMore">Carregar mais produtos <span>＋</span></button></div>
+    </section>
+
+    <section class="promo">
+      <div class="promo-text"><div class="eyebrow"><span class="pulse"></span> UMA OPORTUNIDADE POR TEMPO LIMITADO</div><h2>Seu upgrade.<br><em>Seu momento.</em></h2><p>Escolha seu próximo favorito e leve mais tecnologia para a rotina.</p><a href="#produtos" class="btn btn-light">Encontrar meu próximo gadget <span>↗</span></a><small>*Promoção demonstrativa. Condições finais dependem da loja.</small></div>
+      <div class="promo-visual"><div class="promo-circle"></div><img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=85" alt="Caixa de som premium"><div class="promo-sticker">SOM<br>QUE<br>MOVE.</div></div>
+    </section>
+
+    <section class="newsletter">
+      <div><div class="eyebrow">ENTRE PARA O CLUBE</div><h2>Novidades que dão <em>play.</em></h2><p>Receba lançamentos, ofertas especiais e tendências antes de todo mundo.</p></div>
+      <form id="newsletterForm"><label class="sr-only" for="email">Seu e-mail</label><input id="email" type="email" required placeholder="Seu melhor e-mail"><button class="btn btn-primary" type="submit">Quero receber <span>→</span></button><small id="newsletterMessage">Sem spam. Só tecnologia e boas oportunidades.</small></form>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-top"><a class="logo" href="#"><span class="logo-mark">V</span>VOLT<span class="logo-dot">.</span></a><p>Menos ruído. Mais tecnologia.<br>Feito para ir além.</p><div class="footer-social"><a href="#" aria-label="Instagram">ig ↗</a><a href="#" aria-label="TikTok">tk ↗</a><a href="#" aria-label="YouTube">yt ↗</a></div></div><div class="footer-bottom"><span>© 2026 VOLT STORE. Todos os direitos reservados.</span><span>Privacidade &nbsp; · &nbsp; Termos &nbsp; · &nbsp; Atendimento</span></div></footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras"><div class="drawer-head"><div><small>SUA SELEÇÃO</small><h3>Carrinho <span id="drawerCount">(0)</span></h3></div><button class="close-drawer" id="closeCart" aria-label="Fechar carrinho">×</button></div><div id="cartItems" class="cart-items"><div class="empty-cart"><span>＋</span><h4>Seu carrinho está esperando.</h4><p>Adicione algo que combine com você.</p></div></div><div class="drawer-footer"><div class="subtotal"><span>Subtotal</span><strong id="cartSubtotal">R$ 0,00</strong></div><small>Frete e descontos calculados na próxima etapa.</small><button id="checkoutBtn" class="btn btn-primary checkout-btn">Finalizar pedido <span>↗</span></button><p class="demo-note">Demonstração: conecte um checkout para receber pedidos reais.</p></div></aside>
+  <script src="script.js"></script>
+</body></html>
